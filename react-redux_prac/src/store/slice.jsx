@@ -33,7 +33,6 @@ export const todoSlice = createSlice({
                 existingTodo.status = "complete";
             }else{
                 existingTodo.status =  "incomplete";
-
             }
         },
 
